@@ -8,30 +8,31 @@ This project is a corporate website admin panel that makes the work of the devel
 project<br>
 ├── index.php <br>
 ├── sayfadetay.php <br>
-
-├── icerikdetay/ <br> // content detail pages
-│   ├── 1.php 
-│   ├── 2.php 
-│   └── 3.php 
-├── icerikliste/ <br> // content list pages
-│   ├── 1.php 
-│   ├── 2.php 
-│   └── 3.php 
+├── icerikdetay.php<br>
+├── icerikliste.php<br>
+├── icerikdetay/ // content detail pages  <br>
+│   ├── 1.php  <br>
+│   ├── 2.php  <br>
+│   └── 3.php  <br>
+├── icerikliste/  // content list pages <br>
+│   ├── 1.php  <br>
+│   ├── 2.php  <br>
+│   └── 3.php  <br>
 ├── page/ <br> // page detail pages
-│   ├── 1.php //about page
-│   ├── 2.php  //contact page
-│   └── 3.php //default page
+│   ├── 1.php //about page <br>
+│   ├── 2.php   //contact page <br>
+│   └── 3.php  //default page <br>
 ├── inc/ <br>
 │   ├── head.php // head code <br>
 │   ├── header.php // header code <br>
 │   └── footer.php // footer code <br>
 └── aepanel/ // admin panel files <br>
     └── ae/ <br>
-        ├── verifunc.php <br>
-        ├── config.php <br>
-        ├── baglanti.php <br>
-        ├── fonksiyonlar.php <br>
-        └── ... <br>
+        ├── verifunc.php  // database func code<br>
+        ├── aefunc.php  // functions codes<br>
+        ├── connect.php  // connect db code<br>
+        ├── define.php  // define parameters code<br>
+        └── online.php  // stats code <br>
 
 ## How To Run
 
