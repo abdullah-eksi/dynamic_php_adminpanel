@@ -8,7 +8,19 @@ This project is a corporate website admin panel that makes the work of the devel
 project<br>
 ├── index.php <br>
 ├── sayfadetay.php <br>
-├── sayfadetay.php<br>
+
+├── icerikdetay/ <br> // content detail pages
+│   ├── 1.php 
+│   ├── 2.php 
+│   └── 3.php 
+├── icerikliste/ <br> // content list pages
+│   ├── 1.php 
+│   ├── 2.php 
+│   └── 3.php 
+├── page/ <br> // page detail pages
+│   ├── 1.php //about page
+│   ├── 2.php  //contact page
+│   └── 3.php //default page
 ├── inc/ <br>
 │   ├── head.php // head code <br>
 │   ├── header.php // header code <br>
