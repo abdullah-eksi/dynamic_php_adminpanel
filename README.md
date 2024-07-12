@@ -18,7 +18,7 @@ project<br>
 │   ├── 1.php  <br>
 │   ├── 2.php  <br>
 │   └── 3.php  <br>
-├── page/ <br> // page detail pages
+├── page/  // page detail pages <br>
 │   ├── 1.php //about page <br>
 │   ├── 2.php   //contact page <br>
 │   └── 3.php  //default page <br>
