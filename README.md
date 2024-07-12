@@ -5,21 +5,21 @@
 This project is a corporate website admin panel that makes the work of the developer and the customer easier. It is an advanced admin panel with multiple features.
 
 ## File structure
-project
-├── index.php
-├── sayfadetay.php
-├── sayfadetay.php
-├── inc/
-│   ├── head.php // head code
-│   ├── header.php // header code
-│   └── footer.php // footer code
-└── aepanel/ // admin panel files
-    └── ae/
-        ├── verifunc.php
-        ├── config.php
-        ├── baglanti.php
-        ├── fonksiyonlar.php
-        └── ...
+project<br>
+├── index.php <br>
+├── sayfadetay.php <br>
+├── sayfadetay.php<br>
+├── inc/ <br>
+│   ├── head.php // head code <br>
+│   ├── header.php // header code <br>
+│   └── footer.php // footer code <br>
+└── aepanel/ // admin panel files <br>
+    └── ae/ <br>
+        ├── verifunc.php <br>
+        ├── config.php <br>
+        ├── baglanti.php <br>
+        ├── fonksiyonlar.php <br>
+        └── ... <br>
 
 ## How To Run
 
