@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+
+RewriteRule ^index$ index.php [L,QSA]
+RewriteRule ^logout$ inc/logout.php [L,QSA]
+RewriteRule ^kullanicislem$ aepanel/settings/kullanicislem.php [L,QSA]
+RewriteRule ^urun-([0-9a-zA-Z-_]+)-([0-9]+)$  urundetay.php?sef=$1&urunno=$2 [L,QSA]
+RewriteRule ^sayfa-([0-9a-zA-Z-_]+)  sayfadetay.php?sef=$1 [L,QSA]
+RewriteRule ^login$ login.php [L,QSA]
+RewriteRule ^hesabim$ hesabim.php [L,QSA]
+RewriteRule ^index$ index.php [L,QSA]
+RewriteRule ^adminislem$ aepanel/settings/adminislem.php [L,QSA]
+RewriteRule ^urun$ urun.php [L,QSA]
+RewriteRule ^urun-([0-9a-zA-Z-_]+)$ urun.php?kategori=$1 [L,QSA]
